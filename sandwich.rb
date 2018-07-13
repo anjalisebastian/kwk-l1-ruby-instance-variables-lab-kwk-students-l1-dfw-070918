@@ -21,12 +21,12 @@ class Sandwich
       @meat = new_meat
     end
     
-  instance1 = Sandwich.new("sourdough", "turkey", "cheddar", "cold")
+end
+
+instance1 = Sandwich.new("sourdough", "turkey", "cheddar", "cold")
   
   instance2 = Sandwich.new("rye", "ham", "swiss", "cold")
   
   instance3 = Sandwich.new("wheat", "no meat", "
   brie", "hot")
   
-    
-end
