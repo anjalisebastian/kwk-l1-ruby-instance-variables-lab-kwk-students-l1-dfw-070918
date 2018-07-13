@@ -5,4 +5,13 @@ class Sandwich
     @cheese_type = cheese_type
     @hot_or_cold = hot_or_cold
     
+    def bread_type
+      @bread_type
+    end
+    
+    def meat
+      @meat
+    end
+    
+    
 end
